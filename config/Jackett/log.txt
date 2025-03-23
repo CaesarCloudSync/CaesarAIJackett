@@ -1,0 +1,135 @@
+2025-03-23 19:31:04.6770 Info Starting Jackett v0.22.1680
+2025-03-23 19:31:05.2617 Info Environment version: 8.0.14 (/opt/Jackett/)
+2025-03-23 19:31:05.2716 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-23 19:31:05.2746 Info Jackett variant: CoreLinuxAmdx64
+2025-03-23 19:31:05.2746 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+2025-03-23 19:31:05.2753 Info Running in Docker: Yes (image build: unknown)
+2025-03-23 19:31:05.2764 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-23 19:31:05.2764 Info App config/log directory: /config/Jackett
+2025-03-23 19:31:05.2790 Info Using proxy: Disabled
+2025-03-23 19:31:05.2792 Info Using FlareSolverr: No
+2025-03-23 19:31:05.2814 Info Using HTTP Client: HttpWebClient2
+2025-03-23 19:31:05.2862 Info Loading Native indexers ...
+2025-03-23 19:31:05.3407 Info Loaded 79 Native indexers.
+2025-03-23 19:31:05.3432 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+2025-03-23 19:31:07.8464 Info Loaded 538 Cardigann indexers.
+2025-03-23 19:31:07.8464 Info Loaded 617 indexers in total
+2025-03-23 19:31:07.8544 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-23 19:31:07.8617 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-23 19:31:07.8622 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-23 19:31:07.8622 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-23 19:31:08.0071 Warn No XML encryptor configured. Key {a17419c8-b7ed-4f53-be4d-76a5e697369a} may be persisted to storage in unencrypted form.
+2025-03-23 19:31:08.0576 Info Jackett startup finished in 3.630 s
+2025-03-23 19:33:01.1336 Warn Request to Anidex failed with exception 'Challenge detected but FlareSolverr is not configured'. Retrying in 1.3243128s.
+2025-03-23 19:33:02.8507 Warn Request to Anidex failed with exception 'Challenge detected but FlareSolverr is not configured'. Retrying in 3.0117883s.
+2025-03-23 19:33:06.3016 Error FlareSolverrSharp.Exceptions.FlareSolverrException: Challenge detected but FlareSolverr is not configured
+
+[v0.22.1680.0] FlareSolverrSharp.Exceptions.FlareSolverrException: Challenge detected but FlareSolverr is not configured
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in ./Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 180
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in ./Jackett.Common/Utils/Clients/WebClient.cs:line 188
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 617
+   at Jackett.Common.Indexers.BaseWebIndexer.<>c__DisplayClass12_0.<<RequestWithCookiesAndRetryAsync>b__0>d.MoveNext() in ./Jackett.Common/Indexers/BaseIndexer.cs:line 594
+--- End of stack trace from previous location ---
+   at Polly.ResiliencePipeline.<>c__10`1.<<ExecuteAsync>b__10_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.Outcome`1.GetResultOrRethrow()
+   at Polly.ResiliencePipeline.ExecuteAsync[TResult](Func`2 callback, CancellationToken cancellationToken)
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAndRetryAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 593
+   at Jackett.Common.Indexers.Definitions.Anidex.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/Definitions/Anidex.cs:line 201
+   at Jackett.Common.Indexers.Definitions.Anidex.ApplyConfiguration(JToken configJson) in ./Jackett.Common/Indexers/Definitions/Anidex.cs:line 158
+   at Jackett.Server.Controllers.IndexerApiController.UpdateConfig(ConfigItem[] config) in ./Jackett.Server/Controllers/IndexerApiController.cs:line 97
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jackett.Server.Middleware.CustomExceptionHandler.Invoke(HttpContext httpContext) in ./Jackett.Server/Middleware/CustomExceptionHandler.cs:line 26
+
+2025-03-23 19:33:19.9173 Error Jackett.Common.IndexerException: Exception (animetosho): Connection reset by peer
+
+[v0.22.1680.0] Jackett.Common.IndexerException: Exception (animetosho): Connection reset by peer
+ ---> System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+ ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ReceiveAsync(Socket socket, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.ReceiveAsync(Memory`1 buffer, SocketFlags socketFlags, Boolean fromNetworkStream, CancellationToken cancellationToken)
+   at System.Net.Sockets.NetworkStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.MoveNext()
+   at System.Net.Sockets.SocketAsyncEventArgs.TransferCompletionCallbackCore(Int32 bytesTransferred, Memory`1 socketAddress, SocketFlags receivedFlags, SocketError socketError)
+   at System.Net.Sockets.SocketAsyncEngine.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+--- End of stack trace from previous location ---
+
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in ./Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 180
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in ./Jackett.Common/Utils/Clients/WebClient.cs:line 188
+   at Jackett.Common.Indexers.Feeds.BaseFeedIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/Feeds/BaseFeedIndexer.cs:line 53
+   at Jackett.Common.Indexers.Definitions.Feeds.AnimeTosho.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/Definitions/Feeds/AnimeTosho.cs:line 55
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 378
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 403
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 816
+   at Jackett.Common.Services.IndexerManagerService.TestIndexer(String name) in ./Jackett.Common/Services/IndexerManagerService.cs:line 324
+   at Jackett.Server.Controllers.IndexerApiController.UpdateConfig(ConfigItem[] config) in ./Jackett.Server/Controllers/IndexerApiController.cs:line 101
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jackett.Server.Middleware.CustomExceptionHandler.Invoke(HttpContext httpContext) in ./Jackett.Server/Middleware/CustomExceptionHandler.cs:line 26
+
+2025-03-23 19:34:20.8876 Info Starting Jackett v0.22.1680
+2025-03-23 19:34:21.4688 Info Environment version: 8.0.14 (/opt/Jackett/)
+2025-03-23 19:34:21.4769 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-23 19:34:21.4802 Info Jackett variant: CoreLinuxAmdx64
+2025-03-23 19:34:21.4802 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+2025-03-23 19:34:21.4802 Info Running in Docker: Yes (image build: unknown)
+2025-03-23 19:34:21.4819 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-23 19:34:21.4822 Info App config/log directory: /config/Jackett
+2025-03-23 19:34:21.4845 Info Using proxy: Disabled
+2025-03-23 19:34:21.4845 Info Using FlareSolverr: No
+2025-03-23 19:34:21.4865 Info Using HTTP Client: HttpWebClient2
+2025-03-23 19:34:21.4904 Info Loading Native indexers ...
+2025-03-23 19:34:21.5463 Info Loaded 79 Native indexers.
+2025-03-23 19:34:21.5490 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+2025-03-23 19:34:24.2936 Info Loaded 538 Cardigann indexers.
+2025-03-23 19:34:24.2936 Info Loaded 617 indexers in total
+2025-03-23 19:34:24.3034 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-23 19:34:24.3089 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-23 19:34:24.3094 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-23 19:34:24.3094 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-23 19:34:24.4898 Info Jackett startup finished in 3.871 s
+2025-03-23 19:34:54.3189 Info Torznab search in AggregateSearch for Solo Leveling S01E01 => Found 66 releases [20541ms]
