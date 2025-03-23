@@ -468,3 +468,58 @@ Hosting environment: Production
 Content root path: /opt/Jackett/Content
 Now listening on: http://[::]:9117
 Application started. Press Ctrl+C to shut down.
+03-23 21:49:30 Info Starting Jackett v0.22.1680
+03-23 21:49:30 Info Environment version: 8.0.14 (/opt/Jackett/)
+03-23 21:49:30 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+03-23 21:49:30 Info Jackett variant: CoreLinuxAmdx64
+03-23 21:49:30 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+03-23 21:49:30 Info Running in Docker: Yes (image build: unknown)
+03-23 21:49:30 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+03-23 21:49:30 Info App config/log directory: /config/Jackett
+03-23 21:49:30 Info Using proxy: Disabled
+03-23 21:49:30 Info Using FlareSolverr: No
+03-23 21:49:30 Info Using HTTP Client: HttpWebClient2
+03-23 21:49:30 Info Loading Native indexers ...
+03-23 21:49:30 Info Loaded 79 Native indexers.
+03-23 21:49:30 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+03-23 21:49:32 Info Loaded 538 Cardigann indexers.
+03-23 21:49:32 Info Loaded 617 indexers in total
+03-23 21:49:32 Info Adding aggregate indexer ('all' indexer) ...
+03-23 21:49:32 Info Adding filter indexer ('type:public' indexer) ...
+03-23 21:49:32 Info Adding filter indexer ('type:private' indexer) ...
+03-23 21:49:32 Info Adding filter indexer ('type:semi-public' indexer) ...
+03-23 21:49:32 Info Jackett startup finished in 2.527 s
+Hosting environment: Production
+Content root path: /opt/Jackett/Content
+Now listening on: http://[::]:9117
+Application started. Press Ctrl+C to shut down.
+03-23 21:49:51 Info Torznab search in AggregateSearch for Solo Leveling S01E01 => Found 66 releases [4446ms]
+03-23 21:49:53 Info Torznab search in AggregateSearch for Solo Leveling S01E01 => Found 66 releases [1039ms]
+03-23 21:56:34 Info Torznab search in AggregateSearch for Solo Leveling S01E12 => Found 32 releases [3886ms]
+03-23 21:58:59 Info Torznab search in AggregateSearch for Solo Leveling S01E12 => Found 57 releases [2212ms]
+03-23 21:59:42 Info Starting Jackett v0.22.1680
+03-23 21:59:43 Info Environment version: 8.0.14 (/opt/Jackett/)
+03-23 21:59:43 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+03-23 21:59:43 Info Jackett variant: CoreLinuxAmdx64
+03-23 21:59:43 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+03-23 21:59:43 Info Running in Docker: Yes (image build: unknown)
+03-23 21:59:43 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+03-23 21:59:43 Info App config/log directory: /config/Jackett
+03-23 21:59:43 Info Using proxy: Disabled
+03-23 21:59:43 Info Using FlareSolverr: No
+03-23 21:59:43 Info Using HTTP Client: HttpWebClient2
+03-23 21:59:43 Info Loading Native indexers ...
+03-23 21:59:43 Info Loaded 79 Native indexers.
+03-23 21:59:43 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+03-23 21:59:45 Info Loaded 538 Cardigann indexers.
+03-23 21:59:45 Info Loaded 617 indexers in total
+03-23 21:59:45 Info Adding aggregate indexer ('all' indexer) ...
+03-23 21:59:45 Info Adding filter indexer ('type:public' indexer) ...
+03-23 21:59:45 Info Adding filter indexer ('type:private' indexer) ...
+03-23 21:59:45 Info Adding filter indexer ('type:semi-public' indexer) ...
+03-23 21:59:45 Info Jackett startup finished in 2.670 s
+Hosting environment: Production
+Content root path: /opt/Jackett/Content
+Now listening on: http://[::]:9117
+Application started. Press Ctrl+C to shut down.
+03-23 21:59:53 Info Torznab search in AggregateSearch for Solo Leveling S01E12 => Found 57 releases [4681ms]
