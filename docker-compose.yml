@@ -4,7 +4,9 @@ services:
   jackett:
     container_name: jackett
     privileged: true
-    build: .
+    build:
+      context: .
+      dockerfile: ${AMD_OR_AARCH}.Dockerfile
     volumes:
       - ./config:/config
       - ./blackhole:/blackhole

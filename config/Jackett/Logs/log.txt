@@ -418,3 +418,53 @@ Hosting environment: Production
 Content root path: /opt/Jackett/Content
 Now listening on: http://[::]:9117
 Application started. Press Ctrl+C to shut down.
+03-23 21:39:36 Info Starting Jackett v0.22.1680
+03-23 21:39:36 Info Environment version: 8.0.14 (/opt/Jackett/)
+03-23 21:39:36 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+03-23 21:39:36 Info Jackett variant: CoreLinuxAmdx64
+03-23 21:39:36 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+03-23 21:39:36 Info Running in Docker: Yes (image build: unknown)
+03-23 21:39:36 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+03-23 21:39:36 Info App config/log directory: /config/Jackett
+03-23 21:39:36 Info Using proxy: Disabled
+03-23 21:39:36 Info Using FlareSolverr: No
+03-23 21:39:36 Info Using HTTP Client: HttpWebClient2
+03-23 21:39:36 Info Loading Native indexers ...
+03-23 21:39:36 Info Loaded 79 Native indexers.
+03-23 21:39:36 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+03-23 21:39:38 Info Loaded 538 Cardigann indexers.
+03-23 21:39:38 Info Loaded 617 indexers in total
+03-23 21:39:38 Info Adding aggregate indexer ('all' indexer) ...
+03-23 21:39:38 Info Adding filter indexer ('type:public' indexer) ...
+03-23 21:39:38 Info Adding filter indexer ('type:private' indexer) ...
+03-23 21:39:38 Info Adding filter indexer ('type:semi-public' indexer) ...
+03-23 21:39:38 Info Jackett startup finished in 2.615 s
+Hosting environment: Production
+Content root path: /opt/Jackett/Content
+Now listening on: http://[::]:9117
+Application started. Press Ctrl+C to shut down.
+03-23 21:39:49 Info Starting Jackett v0.22.1680
+03-23 21:39:50 Info Environment version: 8.0.14 (/opt/Jackett/)
+03-23 21:39:50 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+03-23 21:39:50 Info Jackett variant: CoreLinuxAmdx64
+03-23 21:39:50 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+03-23 21:39:50 Info Running in Docker: Yes (image build: unknown)
+03-23 21:39:50 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+03-23 21:39:50 Info App config/log directory: /config/Jackett
+03-23 21:39:50 Info Using proxy: Disabled
+03-23 21:39:50 Info Using FlareSolverr: No
+03-23 21:39:50 Info Using HTTP Client: HttpWebClient2
+03-23 21:39:50 Info Loading Native indexers ...
+03-23 21:39:50 Info Loaded 79 Native indexers.
+03-23 21:39:50 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+03-23 21:39:52 Info Loaded 538 Cardigann indexers.
+03-23 21:39:52 Info Loaded 617 indexers in total
+03-23 21:39:52 Info Adding aggregate indexer ('all' indexer) ...
+03-23 21:39:52 Info Adding filter indexer ('type:public' indexer) ...
+03-23 21:39:52 Info Adding filter indexer ('type:private' indexer) ...
+03-23 21:39:52 Info Adding filter indexer ('type:semi-public' indexer) ...
+03-23 21:39:52 Info Jackett startup finished in 3.114 s
+Hosting environment: Production
+Content root path: /opt/Jackett/Content
+Now listening on: http://[::]:9117
+Application started. Press Ctrl+C to shut down.
