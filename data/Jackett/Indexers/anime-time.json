@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://animetime.cc/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": "XSRF-TOKEN=eyJpdiI6IkVzZ2lEM1dTYlArbjkwUVNyNVJrNkE9PSIsInZhbHVlIjoidHUzME9MMnZ4OGhVMjU2aUpNK1BtRVRRRXhMR2NYZkdxUzZxZFFROXgxbHlEV1NTYUZQMjI4bHpwS290NktqLzhJTko4WS9EWkE4TldhSEF5KzVXbncwQUp6V2txbzYyZ1lGZHhDZUthZ2xXQjl2QU0rbWdzcXUzTk5rMyt6d1EiLCJtYWMiOiI1ZGEyOTM5NzU3MTYwNzIzZmZhYzBjMTc3N2Y0ZWQ1YjQ4NTZjMGFmNjI5M2VmMzVkZjNmZmRmZTlkMWU1MDUwIiwidGFnIjoiIn0%3D; anime_time_session=eyJpdiI6InNaR2NqOU1iRDFtem1iYzk0ci9YWnc9PSIsInZhbHVlIjoiVWRrdWgrOFZINzNSdTZTWkdYa2E5dHJOdWlybjNJOEU3OUMwSW5uenZnaGdFZmxxVlh2c2tQekdIM014V0tTQWZFVWFyempCdkpaYlZ4U0NBcWg5VTgvdXZmb3QwZXUrenhqRjdJbC9QSzlQTVpkS2lNdGVYeUVSN21UbjJYOGwiLCJtYWMiOiIwNzFmMGEyYzRiZDIyZjQ5MjZjOGI2NTE3NzMxYWRmMmI3YTYyODQxYTRhZTM3ZjFlYjU4OTgyZmMyMTY0M2Q2IiwidGFnIjoiIn0%3D"
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": null
+  },
+  {
+    "id": "tags",
+    "type": "inputtags",
+    "name": "Tags",
+    "value": ""
+  }
+]

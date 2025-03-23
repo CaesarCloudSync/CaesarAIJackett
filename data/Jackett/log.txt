@@ -1,0 +1,123 @@
+2025-03-23 16:10:19.2407 Info Starting Jackett v0.22.1680
+2025-03-23 16:10:20.5098 Info Environment version: 8.0.14 (/app/Jackett/)
+2025-03-23 16:10:20.5272 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-23 16:10:20.5340 Info Jackett variant: CoreLinuxMuslAmdx64
+2025-03-23 16:10:20.5349 Info File /etc/issue: Welcome to Alpine Linux 3.21
+2025-03-23 16:10:20.5361 Info Running in Docker: Yes (image build: v0.22.1680-ls714)
+2025-03-23 16:10:20.5385 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-23 16:10:20.5385 Info App config/log directory: /config/Jackett
+2025-03-23 16:10:20.5443 Info Using proxy: Disabled
+2025-03-23 16:10:20.5443 Info Using FlareSolverr: No
+2025-03-23 16:10:20.5486 Info Using HTTP Client: HttpWebClient2
+2025-03-23 16:10:20.5570 Info Loading Native indexers ...
+2025-03-23 16:10:20.6715 Info Loaded 79 Native indexers.
+2025-03-23 16:10:20.6763 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2025-03-23 16:10:24.2346 Info Loaded 538 Cardigann indexers.
+2025-03-23 16:10:24.2354 Info Loaded 617 indexers in total
+2025-03-23 16:10:24.2505 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-23 16:10:24.2657 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-23 16:10:24.2668 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-23 16:10:24.2674 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-23 16:10:24.5615 Warn No XML encryptor configured. Key {e2079c24-ce02-40ff-9c3f-21accc54ea28} may be persisted to storage in unencrypted form.
+2025-03-23 16:10:24.6249 Info Jackett startup finished in 5.918 s
+2025-03-23 16:12:25.2447 Info Jackett stopped
+2025-03-23 16:16:00.1648 Info Starting Jackett v0.22.1680
+2025-03-23 16:16:01.3505 Info Environment version: 8.0.14 (/app/Jackett/)
+2025-03-23 16:16:01.3668 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-23 16:16:01.3736 Info Jackett variant: CoreLinuxMuslAmdx64
+2025-03-23 16:16:01.3743 Info File /etc/issue: Welcome to Alpine Linux 3.21
+2025-03-23 16:16:01.3753 Info Running in Docker: Yes (image build: v0.22.1680-ls714)
+2025-03-23 16:16:01.3775 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-23 16:16:01.3775 Info App config/log directory: /config/Jackett
+2025-03-23 16:16:01.3830 Info Using proxy: Disabled
+2025-03-23 16:16:01.3835 Info Using FlareSolverr: No
+2025-03-23 16:16:01.3869 Info Using HTTP Client: HttpWebClient2
+2025-03-23 16:16:01.3964 Info Loading Native indexers ...
+2025-03-23 16:16:01.5052 Info Loaded 79 Native indexers.
+2025-03-23 16:16:01.5100 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2025-03-23 16:16:04.0682 Info Loaded 538 Cardigann indexers.
+2025-03-23 16:16:04.0685 Info Loaded 617 indexers in total
+2025-03-23 16:16:04.0740 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-23 16:16:04.0800 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-23 16:16:04.0806 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-23 16:16:04.0806 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-23 16:16:04.2096 Info Jackett startup finished in 4.574 s
+2025-03-23 16:17:04.4669 Warn Request to Anidex failed with exception 'Challenge detected but FlareSolverr is not configured'. Retrying in 1.940272s.
+2025-03-23 16:17:04.7735 Info Test search in Anime Tosho => Found 75 releases [1117ms]
+2025-03-23 16:17:06.4434 Warn Request to Anidex failed with exception 'Challenge detected but FlareSolverr is not configured'. Retrying in 1.3472465s.
+2025-03-23 16:17:08.0248 Error FlareSolverrSharp.Exceptions.FlareSolverrException: Challenge detected but FlareSolverr is not configured
+
+[v0.22.1680.0] FlareSolverrSharp.Exceptions.FlareSolverrException: Challenge detected but FlareSolverr is not configured
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in ./Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 180
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in ./Jackett.Common/Utils/Clients/WebClient.cs:line 188
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 617
+   at Jackett.Common.Indexers.BaseWebIndexer.<>c__DisplayClass12_0.<<RequestWithCookiesAndRetryAsync>b__0>d.MoveNext() in ./Jackett.Common/Indexers/BaseIndexer.cs:line 594
+--- End of stack trace from previous location ---
+   at Polly.ResiliencePipeline.<>c__10`1.<<ExecuteAsync>b__10_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.Outcome`1.GetResultOrRethrow()
+   at Polly.ResiliencePipeline.ExecuteAsync[TResult](Func`2 callback, CancellationToken cancellationToken)
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAndRetryAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 593
+   at Jackett.Common.Indexers.Definitions.Anidex.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/Definitions/Anidex.cs:line 201
+   at Jackett.Common.Indexers.Definitions.Anidex.ApplyConfiguration(JToken configJson) in ./Jackett.Common/Indexers/Definitions/Anidex.cs:line 158
+   at Jackett.Server.Controllers.IndexerApiController.UpdateConfig(ConfigItem[] config) in ./Jackett.Server/Controllers/IndexerApiController.cs:line 97
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jackett.Server.Middleware.CustomExceptionHandler.Invoke(HttpContext httpContext) in ./Jackett.Server/Middleware/CustomExceptionHandler.cs:line 26
+
+2025-03-23 16:18:04.3345 Info Jackett stopped
+2025-03-23 16:25:53.7094 Info Starting Jackett v0.22.1680
+2025-03-23 16:25:54.9404 Info Environment version: 8.0.14 (/app/Jackett/)
+2025-03-23 16:25:54.9583 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-23 16:25:54.9654 Info Jackett variant: CoreLinuxMuslAmdx64
+2025-03-23 16:25:54.9654 Info File /etc/issue: Welcome to Alpine Linux 3.21
+2025-03-23 16:25:54.9671 Info Running in Docker: Yes (image build: v0.22.1680-ls714)
+2025-03-23 16:25:54.9695 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-23 16:25:54.9695 Info App config/log directory: /config/Jackett
+2025-03-23 16:25:54.9755 Info Using proxy: Disabled
+2025-03-23 16:25:54.9755 Info Using FlareSolverr: No
+2025-03-23 16:25:54.9793 Info Using HTTP Client: HttpWebClient2
+2025-03-23 16:25:54.9883 Info Loading Native indexers ...
+2025-03-23 16:25:55.0959 Info Loaded 79 Native indexers.
+2025-03-23 16:25:55.1008 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2025-03-23 16:25:58.8358 Info Loaded 538 Cardigann indexers.
+2025-03-23 16:25:58.8363 Info Loaded 617 indexers in total
+2025-03-23 16:25:58.8554 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-23 16:25:58.8659 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-23 16:25:58.8670 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-23 16:25:58.8675 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-23 16:25:59.1562 Info Jackett startup finished in 5.959 s
+2025-03-23 16:28:57.3998 Info Jackett stopped
+2025-03-23 16:29:15.9317 Info Starting Jackett v0.22.1680
+2025-03-23 16:29:17.1601 Info Environment version: 8.0.14 (/app/Jackett/)
+2025-03-23 16:29:17.1768 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-23 16:29:17.1835 Info Jackett variant: CoreLinuxMuslAmdx64
+2025-03-23 16:29:17.1835 Info File /etc/issue: Welcome to Alpine Linux 3.21
+2025-03-23 16:29:17.1853 Info Running in Docker: Yes (image build: v0.22.1680-ls714)
+2025-03-23 16:29:17.1873 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-23 16:29:17.1873 Info App config/log directory: /config/Jackett
+2025-03-23 16:29:17.1931 Info Using proxy: Disabled
+2025-03-23 16:29:17.1936 Info Using FlareSolverr: No
+2025-03-23 16:29:17.1973 Info Using HTTP Client: HttpWebClient2
+2025-03-23 16:29:17.2063 Info Loading Native indexers ...
+2025-03-23 16:29:17.3226 Info Loaded 79 Native indexers.
+2025-03-23 16:29:17.3283 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2025-03-23 16:29:22.0101 Info Loaded 538 Cardigann indexers.
+2025-03-23 16:29:22.0105 Info Loaded 617 indexers in total
+2025-03-23 16:29:22.0197 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-23 16:29:22.0252 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-23 16:29:22.0257 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-23 16:29:22.0257 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-23 16:29:22.1961 Info Jackett startup finished in 6.820 s
+2025-03-23 16:29:29.5986 Info Torznab search in AggregateSearch for Solo Leveling S01E02 => Found 63 releases [2941ms]
+2025-03-23 16:29:42.9274 Info Jackett stopped
