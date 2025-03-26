@@ -1163,3 +1163,360 @@
 2025-03-25 17:02:36.0418 Info Adding filter indexer ('type:private' indexer) ...
 2025-03-25 17:02:36.0418 Info Adding filter indexer ('type:semi-public' indexer) ...
 2025-03-25 17:02:36.1762 Info Jackett startup finished in 2.889 s
+2025-03-26 09:57:35.8306 Info Starting Jackett v0.22.1695
+2025-03-26 09:57:36.3750 Info Environment version: 8.0.14 (/opt/Jackett/)
+2025-03-26 09:57:36.3832 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-26 09:57:36.3864 Info Jackett variant: CoreLinuxAmdx64
+2025-03-26 09:57:36.3868 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+2025-03-26 09:57:36.3868 Info Running in Docker: Yes (image build: unknown)
+2025-03-26 09:57:36.3879 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-26 09:57:36.3879 Info App config/log directory: /config/Jackett
+2025-03-26 09:57:36.3906 Info Using proxy: Disabled
+2025-03-26 09:57:36.3909 Info Using FlareSolverr: No
+2025-03-26 09:57:36.3930 Info Using HTTP Client: HttpWebClient2
+2025-03-26 09:57:36.3971 Info Loading Native indexers ...
+2025-03-26 09:57:36.4503 Info Loaded 79 Native indexers.
+2025-03-26 09:57:36.4525 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+2025-03-26 09:57:39.3048 Info Loaded 536 Cardigann indexers.
+2025-03-26 09:57:39.3048 Info Loaded 615 indexers in total
+2025-03-26 09:57:39.3150 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-26 09:57:39.3209 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-26 09:57:39.3209 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-26 09:57:39.3218 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-26 09:57:39.5124 Info Jackett startup finished in 3.929 s
+2025-03-26 09:58:44.0801 Info Starting Jackett v0.22.1695
+2025-03-26 09:58:44.6620 Info Environment version: 8.0.14 (/opt/Jackett/)
+2025-03-26 09:58:44.6712 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-26 09:58:44.6745 Info Jackett variant: CoreLinuxAmdx64
+2025-03-26 09:58:44.6748 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+2025-03-26 09:58:44.6748 Info Running in Docker: Yes (image build: unknown)
+2025-03-26 09:58:44.6760 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-26 09:58:44.6760 Info App config/log directory: /config/Jackett
+2025-03-26 09:58:44.6783 Info Using proxy: Disabled
+2025-03-26 09:58:44.6783 Info Using FlareSolverr: No
+2025-03-26 09:58:44.6801 Info Using HTTP Client: HttpWebClient2
+2025-03-26 09:58:44.6844 Info Loading Native indexers ...
+2025-03-26 09:58:44.7418 Info Loaded 79 Native indexers.
+2025-03-26 09:58:44.7440 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+2025-03-26 09:58:47.4363 Info Loaded 536 Cardigann indexers.
+2025-03-26 09:58:47.4367 Info Loaded 615 indexers in total
+2025-03-26 09:58:47.4460 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-26 09:58:47.4516 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-26 09:58:47.4522 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-26 09:58:47.4522 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-26 09:58:47.6151 Info Jackett startup finished in 3.812 s
+2025-03-26 10:03:42.0380 Info Starting Jackett v0.22.1695
+2025-03-26 10:03:42.7152 Info Environment version: 8.0.14 (/opt/Jackett/)
+2025-03-26 10:03:42.7248 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-26 10:03:42.7279 Info Jackett variant: CoreLinuxAmdx64
+2025-03-26 10:03:42.7279 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+2025-03-26 10:03:42.7279 Info Running in Docker: Yes (image build: unknown)
+2025-03-26 10:03:42.7294 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-26 10:03:42.7297 Info App config/log directory: /config/Jackett
+2025-03-26 10:03:42.7320 Info Using proxy: Disabled
+2025-03-26 10:03:42.7320 Info Using FlareSolverr: No
+2025-03-26 10:03:42.7338 Info Using HTTP Client: HttpWebClient2
+2025-03-26 10:03:42.7380 Info Loading Native indexers ...
+2025-03-26 10:03:42.7887 Info Loaded 79 Native indexers.
+2025-03-26 10:03:42.7920 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+2025-03-26 10:03:45.2201 Info Loaded 536 Cardigann indexers.
+2025-03-26 10:03:45.2201 Info Loaded 615 indexers in total
+2025-03-26 10:03:45.2292 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-26 10:03:45.2346 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-26 10:03:45.2350 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-26 10:03:45.2350 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-26 10:03:45.4173 Info Jackett startup finished in 3.663 s
+2025-03-26 10:07:52.0979 Info Starting Jackett v0.22.1695
+2025-03-26 10:07:52.8120 Info Environment version: 8.0.14 (/opt/Jackett/)
+2025-03-26 10:07:52.8211 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-26 10:07:52.8244 Info Jackett variant: CoreLinuxAmdx64
+2025-03-26 10:07:52.8249 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+2025-03-26 10:07:52.8249 Info Running in Docker: Yes (image build: unknown)
+2025-03-26 10:07:52.8260 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-26 10:07:52.8260 Info App config/log directory: /config/Jackett
+2025-03-26 10:07:52.8286 Info Using proxy: Disabled
+2025-03-26 10:07:52.8288 Info Using FlareSolverr: No
+2025-03-26 10:07:52.8308 Info Using HTTP Client: HttpWebClient2
+2025-03-26 10:07:52.8349 Info Loading Native indexers ...
+2025-03-26 10:07:52.8812 Info Loaded 79 Native indexers.
+2025-03-26 10:07:52.8835 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+2025-03-26 10:07:55.5997 Info Loaded 536 Cardigann indexers.
+2025-03-26 10:07:55.5997 Info Loaded 615 indexers in total
+2025-03-26 10:07:55.6069 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-26 10:07:55.6111 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-26 10:07:55.6111 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-26 10:07:55.6111 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-26 10:07:55.7360 Info Jackett startup finished in 3.923 s
+2025-03-26 10:08:59.8092 Info Starting Jackett v0.22.1695
+2025-03-26 10:09:00.3731 Info Environment version: 8.0.14 (/opt/Jackett/)
+2025-03-26 10:09:00.3818 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-26 10:09:00.3850 Info Jackett variant: CoreLinuxAmdx64
+2025-03-26 10:09:00.3850 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+2025-03-26 10:09:00.3858 Info Running in Docker: Yes (image build: unknown)
+2025-03-26 10:09:00.3858 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-26 10:09:00.3870 Info App config/log directory: /config/Jackett
+2025-03-26 10:09:00.3891 Info Using proxy: Disabled
+2025-03-26 10:09:00.3891 Info Using FlareSolverr: No
+2025-03-26 10:09:00.3910 Info Using HTTP Client: HttpWebClient2
+2025-03-26 10:09:00.3950 Info Loading Native indexers ...
+2025-03-26 10:09:00.4484 Info Loaded 79 Native indexers.
+2025-03-26 10:09:00.4506 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+2025-03-26 10:09:03.0835 Info Loaded 536 Cardigann indexers.
+2025-03-26 10:09:03.0838 Info Loaded 615 indexers in total
+2025-03-26 10:09:03.0904 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-26 10:09:03.0943 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-26 10:09:03.0943 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-26 10:09:03.0948 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-26 10:09:03.2120 Info Jackett startup finished in 3.688 s
+2025-03-26 10:11:21.0028 Info Starting Jackett v0.22.1695
+2025-03-26 10:11:21.6135 Info Environment version: 8.0.14 (/opt/Jackett/)
+2025-03-26 10:11:21.6219 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-26 10:11:21.6257 Info Jackett variant: CoreLinuxAmdx64
+2025-03-26 10:11:21.6263 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+2025-03-26 10:11:21.6263 Info Running in Docker: Yes (image build: unknown)
+2025-03-26 10:11:21.6275 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-26 10:11:21.6278 Info App config/log directory: /config/Jackett
+2025-03-26 10:11:21.6300 Info Using proxy: Disabled
+2025-03-26 10:11:21.6300 Info Using FlareSolverr: No
+2025-03-26 10:11:21.6321 Info Using HTTP Client: HttpWebClient2
+2025-03-26 10:11:21.6360 Info Loading Native indexers ...
+2025-03-26 10:11:21.6936 Info Loaded 79 Native indexers.
+2025-03-26 10:11:21.6959 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+2025-03-26 10:11:24.3042 Info Loaded 536 Cardigann indexers.
+2025-03-26 10:11:24.3042 Info Loaded 615 indexers in total
+2025-03-26 10:11:24.3114 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-26 10:11:24.3155 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-26 10:11:24.3159 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-26 10:11:24.3159 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-26 10:11:24.4387 Info Jackett startup finished in 3.706 s
+2025-03-26 10:13:03.3870 Info Starting Jackett v0.22.1695
+2025-03-26 10:13:04.0328 Info Environment version: 8.0.14 (/opt/Jackett/)
+2025-03-26 10:13:04.0421 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-26 10:13:04.0454 Info Jackett variant: CoreLinuxAmdx64
+2025-03-26 10:13:04.0459 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+2025-03-26 10:13:04.0459 Info Running in Docker: Yes (image build: unknown)
+2025-03-26 10:13:04.0473 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-26 10:13:04.0473 Info App config/log directory: /config/Jackett
+2025-03-26 10:13:04.0496 Info Using proxy: Disabled
+2025-03-26 10:13:04.0499 Info Using FlareSolverr: No
+2025-03-26 10:13:04.0516 Info Using HTTP Client: HttpWebClient2
+2025-03-26 10:13:04.0561 Info Loading Native indexers ...
+2025-03-26 10:13:04.1093 Info Loaded 79 Native indexers.
+2025-03-26 10:13:04.1115 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+2025-03-26 10:13:06.8139 Info Loaded 536 Cardigann indexers.
+2025-03-26 10:13:06.8139 Info Loaded 615 indexers in total
+2025-03-26 10:13:06.8220 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-26 10:13:06.8263 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-26 10:13:06.8267 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-26 10:13:06.8267 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-26 10:13:06.9547 Info Jackett startup finished in 3.842 s
+2025-03-26 10:14:25.7206 Info Starting Jackett v0.22.1695
+2025-03-26 10:14:26.2956 Info Environment version: 8.0.14 (/opt/Jackett/)
+2025-03-26 10:14:26.3040 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-26 10:14:26.3074 Info Jackett variant: CoreLinuxAmdx64
+2025-03-26 10:14:26.3081 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+2025-03-26 10:14:26.3081 Info Running in Docker: Yes (image build: unknown)
+2025-03-26 10:14:26.3094 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-26 10:14:26.3094 Info App config/log directory: /config/Jackett
+2025-03-26 10:14:26.3117 Info Using proxy: Disabled
+2025-03-26 10:14:26.3117 Info Using FlareSolverr: No
+2025-03-26 10:14:26.3136 Info Using HTTP Client: HttpWebClient2
+2025-03-26 10:14:26.3173 Info Loading Native indexers ...
+2025-03-26 10:14:26.3708 Info Loaded 79 Native indexers.
+2025-03-26 10:14:26.3737 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+2025-03-26 10:14:29.0417 Info Loaded 536 Cardigann indexers.
+2025-03-26 10:14:29.0417 Info Loaded 615 indexers in total
+2025-03-26 10:14:29.0499 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-26 10:14:29.0542 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-26 10:14:29.0542 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-26 10:14:29.0548 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-26 10:14:29.1851 Info Jackett startup finished in 3.741 s
+2025-03-26 10:18:23.1505 Info Starting Jackett v0.22.1695
+2025-03-26 10:18:23.7103 Info Environment version: 8.0.14 (/opt/Jackett/)
+2025-03-26 10:18:23.7199 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-26 10:18:23.7230 Info Jackett variant: CoreLinuxAmdx64
+2025-03-26 10:18:23.7230 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+2025-03-26 10:18:23.7237 Info Running in Docker: Yes (image build: unknown)
+2025-03-26 10:18:23.7248 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-26 10:18:23.7248 Info App config/log directory: /config/Jackett
+2025-03-26 10:18:23.7276 Info Using proxy: Disabled
+2025-03-26 10:18:23.7278 Info Using FlareSolverr: No
+2025-03-26 10:18:23.7300 Info Using HTTP Client: HttpWebClient2
+2025-03-26 10:18:23.7340 Info Loading Native indexers ...
+2025-03-26 10:18:23.7933 Info Loaded 79 Native indexers.
+2025-03-26 10:18:23.7962 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+2025-03-26 10:18:26.5328 Info Loaded 536 Cardigann indexers.
+2025-03-26 10:18:26.5328 Info Loaded 615 indexers in total
+2025-03-26 10:18:26.5426 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-26 10:18:26.5481 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-26 10:18:26.5481 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-26 10:18:26.5488 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-26 10:18:26.7176 Info Jackett startup finished in 3.813 s
+2025-03-26 10:22:07.2148 Info Starting Jackett v0.22.1695
+2025-03-26 10:22:07.8093 Info Environment version: 8.0.14 (/opt/Jackett/)
+2025-03-26 10:22:07.8179 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-26 10:22:07.8217 Info Jackett variant: CoreLinuxAmdx64
+2025-03-26 10:22:07.8217 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+2025-03-26 10:22:07.8217 Info Running in Docker: Yes (image build: unknown)
+2025-03-26 10:22:07.8235 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-26 10:22:07.8239 Info App config/log directory: /config/Jackett
+2025-03-26 10:22:07.8262 Info Using proxy: Disabled
+2025-03-26 10:22:07.8262 Info Using FlareSolverr: No
+2025-03-26 10:22:07.8281 Info Using HTTP Client: HttpWebClient2
+2025-03-26 10:22:07.8318 Info Loading Native indexers ...
+2025-03-26 10:22:07.8887 Info Loaded 79 Native indexers.
+2025-03-26 10:22:07.8915 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+2025-03-26 10:22:10.7531 Info Loaded 536 Cardigann indexers.
+2025-03-26 10:22:10.7531 Info Loaded 615 indexers in total
+2025-03-26 10:22:10.7611 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-26 10:22:10.7659 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-26 10:22:10.7659 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-26 10:22:10.7659 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-26 10:22:10.9003 Info Jackett startup finished in 3.957 s
+2025-03-26 10:23:00.5778 Info Starting Jackett v0.22.1695
+2025-03-26 10:23:01.1208 Info Environment version: 8.0.14 (/opt/Jackett/)
+2025-03-26 10:23:01.1290 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-26 10:23:01.1321 Info Jackett variant: CoreLinuxAmdx64
+2025-03-26 10:23:01.1321 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+2025-03-26 10:23:01.1329 Info Running in Docker: Yes (image build: unknown)
+2025-03-26 10:23:01.1342 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-26 10:23:01.1342 Info App config/log directory: /config/Jackett
+2025-03-26 10:23:01.1367 Info Using proxy: Disabled
+2025-03-26 10:23:01.1367 Info Using FlareSolverr: No
+2025-03-26 10:23:01.1386 Info Using HTTP Client: HttpWebClient2
+2025-03-26 10:23:01.1428 Info Loading Native indexers ...
+2025-03-26 10:23:01.1993 Info Loaded 79 Native indexers.
+2025-03-26 10:23:01.2016 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+2025-03-26 10:23:03.8242 Info Loaded 536 Cardigann indexers.
+2025-03-26 10:23:03.8242 Info Loaded 615 indexers in total
+2025-03-26 10:23:03.8339 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-26 10:23:03.8393 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-26 10:23:03.8398 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-26 10:23:03.8398 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-26 10:23:04.0052 Info Jackett startup finished in 3.672 s
+2025-03-26 10:25:19.3159 Info Starting Jackett v0.22.1695
+2025-03-26 10:25:19.9054 Info Environment version: 8.0.14 (/opt/Jackett/)
+2025-03-26 10:25:19.9149 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-26 10:25:19.9186 Info Jackett variant: CoreLinuxAmdx64
+2025-03-26 10:25:19.9189 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+2025-03-26 10:25:19.9189 Info Running in Docker: Yes (image build: unknown)
+2025-03-26 10:25:19.9201 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-26 10:25:19.9201 Info App config/log directory: /config/Jackett
+2025-03-26 10:25:19.9235 Info Using proxy: Disabled
+2025-03-26 10:25:19.9240 Info Using FlareSolverr: No
+2025-03-26 10:25:19.9263 Info Using HTTP Client: HttpWebClient2
+2025-03-26 10:25:19.9309 Info Loading Native indexers ...
+2025-03-26 10:25:19.9929 Info Loaded 79 Native indexers.
+2025-03-26 10:25:19.9961 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+2025-03-26 10:25:22.6776 Info Loaded 536 Cardigann indexers.
+2025-03-26 10:25:22.6780 Info Loaded 615 indexers in total
+2025-03-26 10:25:22.6873 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-26 10:25:22.6931 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-26 10:25:22.6931 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-26 10:25:22.6938 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-26 10:25:22.8597 Info Jackett startup finished in 3.806 s
+2025-03-26 10:26:48.8408 Info Starting Jackett v0.22.1695
+2025-03-26 10:26:49.2413 Info Environment version: 8.0.14 (/opt/Jackett/)
+2025-03-26 10:26:49.2466 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-26 10:26:49.2490 Info Jackett variant: CoreLinuxAmdx64
+2025-03-26 10:26:49.2490 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+2025-03-26 10:26:49.2490 Info Running in Docker: Yes (image build: unknown)
+2025-03-26 10:26:49.2503 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-26 10:26:49.2503 Info App config/log directory: /config/Jackett
+2025-03-26 10:26:49.2519 Info Using proxy: Disabled
+2025-03-26 10:26:49.2519 Info Using FlareSolverr: No
+2025-03-26 10:26:49.2533 Info Using HTTP Client: HttpWebClient2
+2025-03-26 10:26:49.2560 Info Loading Native indexers ...
+2025-03-26 10:26:49.2912 Info Loaded 79 Native indexers.
+2025-03-26 10:26:49.2937 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+2025-03-26 10:26:51.4564 Info Loaded 536 Cardigann indexers.
+2025-03-26 10:26:51.4564 Info Loaded 615 indexers in total
+2025-03-26 10:26:51.4633 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-26 10:26:51.4671 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-26 10:26:51.4671 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-26 10:26:51.4671 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-26 10:26:51.5841 Info Jackett startup finished in 2.940 s
+2025-03-26 10:27:38.5416 Info Starting Jackett v0.22.1695
+2025-03-26 10:27:39.1570 Info Environment version: 8.0.14 (/opt/Jackett/)
+2025-03-26 10:27:39.1664 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-26 10:27:39.1697 Info Jackett variant: CoreLinuxAmdx64
+2025-03-26 10:27:39.1697 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+2025-03-26 10:27:39.1697 Info Running in Docker: Yes (image build: unknown)
+2025-03-26 10:27:39.1713 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-26 10:27:39.1713 Info App config/log directory: /config/Jackett
+2025-03-26 10:27:39.1742 Info Using proxy: Disabled
+2025-03-26 10:27:39.1742 Info Using FlareSolverr: No
+2025-03-26 10:27:39.1760 Info Using HTTP Client: HttpWebClient2
+2025-03-26 10:27:39.1810 Info Loading Native indexers ...
+2025-03-26 10:27:39.2413 Info Loaded 79 Native indexers.
+2025-03-26 10:27:39.2446 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+2025-03-26 10:27:42.4836 Info Loaded 536 Cardigann indexers.
+2025-03-26 10:27:42.4839 Info Loaded 615 indexers in total
+2025-03-26 10:27:42.4931 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-26 10:27:42.4988 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-26 10:27:42.4988 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-26 10:27:42.4988 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-26 10:27:42.6907 Info Jackett startup finished in 4.426 s
+2025-03-26 10:33:28.8673 Info Starting Jackett v0.22.1695
+2025-03-26 10:33:29.2376 Info Environment version: 8.0.14 (/opt/Jackett/)
+2025-03-26 10:33:29.2425 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-26 10:33:29.2444 Info Jackett variant: CoreLinuxAmdx64
+2025-03-26 10:33:29.2444 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+2025-03-26 10:33:29.2448 Info Running in Docker: Yes (image build: unknown)
+2025-03-26 10:33:29.2448 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-26 10:33:29.2448 Info App config/log directory: /config/Jackett
+2025-03-26 10:33:29.2468 Info Using proxy: Disabled
+2025-03-26 10:33:29.2468 Info Using FlareSolverr: No
+2025-03-26 10:33:29.2479 Info Using HTTP Client: HttpWebClient2
+2025-03-26 10:33:29.2502 Info Loading Native indexers ...
+2025-03-26 10:33:29.2820 Info Loaded 79 Native indexers.
+2025-03-26 10:33:29.2835 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+2025-03-26 10:33:31.1035 Info Loaded 536 Cardigann indexers.
+2025-03-26 10:33:31.1037 Info Loaded 615 indexers in total
+2025-03-26 10:33:31.1094 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-26 10:33:31.1130 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-26 10:33:31.1130 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-26 10:33:31.1130 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-26 10:33:31.2229 Info Jackett startup finished in 2.550 s
+2025-03-26 11:23:54.9443 Info Starting Jackett v0.22.1695
+2025-03-26 11:23:55.5791 Info Environment version: 8.0.14 (/opt/Jackett/)
+2025-03-26 11:23:55.5874 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-26 11:23:55.5907 Info Jackett variant: CoreLinuxAmdx64
+2025-03-26 11:23:55.5907 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+2025-03-26 11:23:55.5907 Info Running in Docker: Yes (image build: unknown)
+2025-03-26 11:23:55.5922 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-26 11:23:55.5922 Info App config/log directory: /config/Jackett
+2025-03-26 11:23:55.5948 Info Using proxy: Disabled
+2025-03-26 11:23:55.5948 Info Using FlareSolverr: No
+2025-03-26 11:23:55.5970 Info Using HTTP Client: HttpWebClient2
+2025-03-26 11:23:55.6015 Info Loading Native indexers ...
+2025-03-26 11:23:55.6541 Info Loaded 79 Native indexers.
+2025-03-26 11:23:55.6571 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+2025-03-26 11:23:58.5149 Info Loaded 536 Cardigann indexers.
+2025-03-26 11:23:58.5149 Info Loaded 615 indexers in total
+2025-03-26 11:23:58.5250 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-26 11:23:58.5312 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-26 11:23:58.5319 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-26 11:23:58.5319 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-26 11:23:58.7386 Info Jackett startup finished in 4.095 s
+2025-03-26 12:01:57.8922 Info Starting Jackett v0.22.1695
+2025-03-26 12:01:58.4321 Info Environment version: 8.0.14 (/opt/Jackett/)
+2025-03-26 12:01:58.4398 Info OS version: Unix 6.8.0.52 (64bit OS) (64bit process)
+2025-03-26 12:01:58.4427 Info Jackett variant: CoreLinuxAmdx64
+2025-03-26 12:01:58.4427 Info File /etc/issue: Debian GNU/Linux 11 \n \l
+2025-03-26 12:01:58.4427 Info Running in Docker: Yes (image build: unknown)
+2025-03-26 12:01:58.4441 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2025-03-26 12:01:58.4441 Info App config/log directory: /config/Jackett
+2025-03-26 12:01:58.4464 Info Using proxy: Disabled
+2025-03-26 12:01:58.4464 Info Using FlareSolverr: No
+2025-03-26 12:01:58.4483 Info Using HTTP Client: HttpWebClient2
+2025-03-26 12:01:58.4523 Info Loading Native indexers ...
+2025-03-26 12:01:58.5074 Info Loaded 79 Native indexers.
+2025-03-26 12:01:58.5105 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /opt/Jackett/Definitions
+2025-03-26 12:02:01.1995 Info Loaded 536 Cardigann indexers.
+2025-03-26 12:02:01.1998 Info Loaded 615 indexers in total
+2025-03-26 12:02:01.2089 Info Adding aggregate indexer ('all' indexer) ...
+2025-03-26 12:02:01.2143 Info Adding filter indexer ('type:public' indexer) ...
+2025-03-26 12:02:01.2148 Info Adding filter indexer ('type:private' indexer) ...
+2025-03-26 12:02:01.2148 Info Adding filter indexer ('type:semi-public' indexer) ...
+2025-03-26 12:02:01.3812 Info Jackett startup finished in 3.727 s
